@@ -14,4 +14,4 @@ class PostModel(models.Model):
     )
 
     created_at = models.DateTimeField(auto_now_add = True)
-    objetos = models.Manager()
+    posts = models.Manager()
