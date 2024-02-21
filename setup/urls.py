@@ -18,8 +18,8 @@ from django.urls import path, include
 from django.contrib import admin
 
 urlpatterns = [
-    # importa urls do app website
-    path('', include('website.urls', namespace = 'website')),
+    # importa urls do app blog
+    path('', include('blog.urls', namespace = 'blog')),
 
     # interface administrativa
     path('admin/', admin.site.urls),
