@@ -1,6 +1,6 @@
 from django.db import models
 
-class PostModel(models.Model):
+class Post(models.Model):
     titulo = models.CharField(
         max_length = 120,
         null = False,
